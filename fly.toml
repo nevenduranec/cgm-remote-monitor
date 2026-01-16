@@ -11,6 +11,10 @@ kill_timeout = "5s"
 [experimental]
   auto_rollback = true
 
+[env]
+  PORT = "8080"
+  HOSTNAME = "0.0.0.0"
+
 [processes]
   app = "node lib/server/server.js"
 
